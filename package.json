@@ -1,0 +1,25 @@
+{
+    "private": true,
+    "name": "jrdn-bot",
+    "author": {
+        "name":  "Jordan Stout",
+        "email": "jordanstout@gmail.com",
+        "url":   "http://jrdn.org"
+    },
+    "description": "A turntable.fm bot",
+    "keywords": [
+        "turntable.fm",
+        "turntable",
+        "turntable bot"
+    ],
+    "version": "1.0.0",
+    "main": "jrdn-bot",
+    "dependencies": {
+        "ttapi": "1.4.x",
+        "xml2js": "0.1.x",
+        "request": "2.x.x"
+    },
+    "engines": {
+        "node": ">= v0.8.6"
+    }
+}
